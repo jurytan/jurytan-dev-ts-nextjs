@@ -1,4 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# jurytan.dev
+Now with 100% more Next.js! 
+
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). This was created because I made a repo [`jurtyan-dev-ts`](https://github.com/jurytan/jurytan-dev-ts) that was impossible to upgrade since it's too old. This new repo will replace that one, and all of the logic will be ported over. 
 
 ## Getting Started
 
