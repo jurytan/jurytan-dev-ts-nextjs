@@ -5,7 +5,7 @@ import Link from "@mui/material/Link";
 
 interface SocialItemProps {
     url: string,
-    img: string
+    img: any
 }
 
 export const SocialItem = (props: SocialItemProps) => {
@@ -18,5 +18,5 @@ export const SocialItem = (props: SocialItemProps) => {
 
 SocialItem.propType = {
     url: PropTypes.string.isRequired,
-    img: PropTypes.string.isRequired
+    img: PropTypes.any.isRequired
 };

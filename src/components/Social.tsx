@@ -2,7 +2,7 @@
 import Typography from "@mui/material/Typography";
 import { SocialItem } from "./SocialItem";
 import Stack from "@mui/material/Stack";
-import Divider from "@mui/material/Divider/Divider";
+import Divider from "@mui/material/Divider";
 
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
@@ -27,13 +27,13 @@ export const Social = () => {
                 divider={<Divider orientation="vertical" flexItem />}
             >
                 <SocialItem
-                    img={github}
+                    img='src/images/github.png'
                     url='https://github.com/jurytan' />
                 <SocialItem
-                    img={linkedin}
+                    img='../images/linkedin.png'
                     url='https://bit.ly/jnguyenLI' />
                 <SocialItem
-                    img={twitch}
+                    img='../images/twitch.png'
                     url='https://twitch.tv/jurytan' />
             </Stack>
         </>
